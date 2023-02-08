@@ -30,7 +30,7 @@ console.log(checkAge(13))
 //Перепишіть функцію, використовуючи 2) '||' або '&&'
 
 function checkAgeTwo(age) {
-    return (age >= 18) == true || (age < 18) == confirm('Батьки дозволили?')
+    return age >= 18 || confirm('Батьки дозволили?')
 }
 
 console.log(checkAgeTwo(19))
